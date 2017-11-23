@@ -87,3 +87,37 @@ footer {
 */
 
 /* Write your CSS here */
+img {
+  width: 300px;
+  float: right;
+}
+
+figure {
+  display: table;
+}
+
+figure figcaption {
+  float: right;
+  font-size: .875rem;
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  caption-side: bottom;
+}
+
+main.wrapper:first-child::first-letter {
+  font-size: 5rem;
+  float: left;
+}
+
+/* fix */
+
+blockquote {
+  float: left;
+  font-size: 1.5rem;
+  width: 300px;
+  border-color: #333;
+  border-style: solid;
+}
+
+/* add border */
