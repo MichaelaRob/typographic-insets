@@ -102,7 +102,7 @@ figure {
   margin: 0;
   padding: 6px;
   font-style: italic;
-  border-width: 3px none;
+  border-width: 3px;
   border-style: solid none;
   border-color: #333;
 }
@@ -114,6 +114,7 @@ main > p:first-child::first-letter {
   background-color: #666;
   border-style: solid none;
   border-color: #333;
+  border-width: 3px;
   color: #fff;
   font-style: normal;
   margin: 0 6px 6px 0;
@@ -128,6 +129,7 @@ blockquote {
   width: 300px;
   border-color: #333;
   border-style: solid none;
+  border-width: 3px;
   padding: 6px;
 }
 
