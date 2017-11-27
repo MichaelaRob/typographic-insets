@@ -106,6 +106,7 @@ figure {
   border-width: 3px;
   border-style: solid none;
   border-color: #333;
+  margin-right: -150px;
 }
 
 main > p:first-child::first-letter {
@@ -118,7 +119,8 @@ main > p:first-child::first-letter {
   border-width: 3px;
   color: #fff;
   font-style: normal;
-  margin: 0 6px 6px 0;
+  margin-left: -50px;
+  margin-right: 10px;
 }
 
 /* fix */
@@ -132,6 +134,10 @@ blockquote {
   border-style: solid none;
   border-width: 3px;
   padding: 6px;
+  margin-left: -150px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /* add border */
